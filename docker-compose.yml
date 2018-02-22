@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  simplewebapp:
-    image: simplewebapp
-    build:
-      context: .
-      dockerfile: SimpleWebApp/Dockerfile
