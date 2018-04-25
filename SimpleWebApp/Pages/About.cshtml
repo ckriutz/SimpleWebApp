@@ -1,9 +1,25 @@
 ﻿@page
-@model AboutModel
-@{
-    ViewData["Title"] = "About";
-}
-<h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+@{
+    ViewData["Title"] = "About SimpleWebApp";
+}
+
+
+<div class="container">
+    <div class="jumbotron" style="margin-top: 10px;">
+        <h2>@ViewData["Title"]</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p class="h4">This is a simple Web Site using <a href="https://blogs.msdn.microsoft.com/webdev/2017/08/14/announcing-asp-net-core-2-0/">asp.net core 2.0</a>.</p>
+            <p class="h4">This site is also utilizing <a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/?view=aspnetcore-2.1&tabs=visual-studio">asp.net core razor pages</a>.</p>
+            <p></p>
+            <p class="h4">The source code for this project is located at: <a href="https://github.com/ckriutz/SimpleWebApp">https://github.com/ckriutz/SimpleWebApp</a></p>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+
+
+
