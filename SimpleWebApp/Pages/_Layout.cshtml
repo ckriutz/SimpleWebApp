@@ -33,14 +33,15 @@
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/About">About</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
-                    <li><a>@Environment.MachineName</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
+
+
+    @RenderBody()
+    <hr />
+    <div class="container-fluid">
         <footer>
             <p>&copy; 2017 - SimpleWebApp</p>
         </footer>

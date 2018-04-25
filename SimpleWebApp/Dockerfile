@@ -7,7 +7,7 @@ COPY . ./
 RUN dotnet build
 RUN dotnet publish -c Release -o out
 
-FROM microsoft/aspnetcore:2.0
+FROM microsoft/aspnetcore
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "SimpleWebApp.dll"]
