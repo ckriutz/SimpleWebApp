@@ -6,6 +6,6 @@ Simple [ASP.NET Core 2.0](https://docs.microsoft.com/en-us/aspnet/core/?view=asp
 <h4>@Environment.MachineName</h4>
 ```
 
-![Machine Name](simplewebapp/docs/machinename.png)
+![Machine Name](https://github.com/ckriutz/SimpleWebApp/blob/master/SimpleWebApp/docs/machinename.PNG)
 
 The Dockerfile and code is ready to be pulled down. If you'd like to pull a Linux image from docker hub, you can access the image [here](https://hub.docker.com/r/ckriutz/simplewebapp/).
